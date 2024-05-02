@@ -1,21 +1,28 @@
-function sumMultiplesOf3And5() {
-   
-    let sum = 0;
-    for (let i = 1; i < limit; i++) {
-      if (i % 3 === 0 || i % 5 === 0) {
-        sum += i;
-      }
-    }
-    return sum;
-  }
+
+
+  const inpt = document.getElementById("#txte");
+  const buton = document.getElementById("#bnt");
+
+  buton.addEventListener('click', function(){
+    let x = inpt.value;
+    console.log(x);
+
+  });
+
   
-  
-  const limit = 1000;
-  const result = sumMultiplesOf3And5(limit);
+ /* const result = sumMultiplesOf3And5(limit);
   console.log("The sum of all multiples of 3 or 5 below", limit, "is:", result);
+  const answer = parseInt(document.getElementById('answer').value);
+  if (answer === result){
+    alert("Great!!!!!")
+  }else{
+    alert("Wrong")
+  }*/
+
+  
 
 
-  function evenFibonacciSum() {
+  /*function evenFibonacciSum() {
    
     let sum = 0;
     let fib1 = 1;
@@ -38,27 +45,16 @@ const limit =4000000;
 const result = evenFibonacciSum(limit);
 console.log("The sum of even Fibonacci numbers up to", limit, "is:", result);
 
-document.getElementById().addEventListener("click", function(){
-
-});
-
-document.getElementById().addEventListener("click", function(){
-    
-});
-
-document.getElementById().addEventListener("click", function(){
-    
-});
 
 document.getElementById("submitButton").addEventListener("click", function() {
-    alert("This button is clicked")
-    
+alert("Ahhh")
+
     const inputValue = document.getElementById("textInput").value;
 
     
     document.getElementById("displayParagraph").textContent = "Input value: " + inputValue;
 
-
+}
 function largestPrimeFactor(n) {
     let largestPrime = 1;
     
@@ -86,5 +82,5 @@ function largestPrimeFactor(n) {
 
 
 const number = 600851475143;
-console.log(`Largest prime factor of ${number} is:`, largestPrimeFactor(number));
-})
+
+}*/
