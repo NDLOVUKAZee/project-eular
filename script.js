@@ -41,10 +41,12 @@ function secFun() {
 const textThree = document.getElementById("thirdBox");
 const buttonThree = document.getElementById("thirdBtn");
 const outpThree = document.getElementById("thirdOut");
-function thirdFun(num) {
+function thirdFun() {
+
     let largestPrime = 1;
-    
-        while (num % 2 === 0) {
+    let num = textThree.value;
+
+    while (num % 2 === 0) {
         largestPrime = 2;
         num = Math.floor(num / 2);
     }
